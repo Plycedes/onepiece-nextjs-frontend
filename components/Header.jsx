@@ -1,5 +1,13 @@
+"use client";
+
+import { ConnectButton } from "web3uikit";
+
 const Header = () => {
-    return <div>Header</div>;
+    return (
+        <div>
+            <ConnectButton moralisAuth={false} />
+        </div>
+    );
 };
 
 export default Header;
